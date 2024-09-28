@@ -53,13 +53,12 @@ for i in range(5):
     nomes.append(nome)
     nomes.sort()
 print(f"Os nomes em Ordem Alfabetica: {nomes}")    
+"""
 
 soma=0
 numeros = []
-for i in range(10):
+for i in range(5):
     valor = int(input(f"Digite o {i+1}º Valor: "))
     numeros.append(valor)
-    soma=sum(numeros)
-media = soma/10
-print(f"Média: {media}")    
-"""
+media = sum(numeros)/len(numeros)
+print(f"A Média é: {media}")    
